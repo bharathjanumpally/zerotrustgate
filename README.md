@@ -1,6 +1,6 @@
 # ZT-RL Prototype
 
-A runnable prototype for **RL-driven autonomous security hardening** with a **Zero Trust gate** and a **digital twin** safety simulator.
+A runnable prototype of a system and method for AI-powered autonomous cloud hardening using reinforcement learning (RL) within a Zero Trust architecture, with an OPA policy gate and a digital twin safety simulator that validates changes before enforcement.
 
 ## Services
 - `control-plane` (Node.js + Express): ingest telemetry, compute state, call RL, call OPA, simulate, execute (sandbox), compute reward
